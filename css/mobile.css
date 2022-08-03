@@ -67,16 +67,33 @@
 
   #nav-bar .container {
     padding: 12px 0;
+    display: flex;
+    flex-direction: column;
   }
 
   #nav-bar a {
-    display: block;
     text-align: left;
     border: none;
     padding: 10px 36px;
 
     /* float cho .nav-bar-items */
     float: none;
+  }
+
+  .nav-bar-item-1 {
+    order: 1;
+  }
+
+  .nav-bar-item-2 {
+    order: 2;
+  }
+
+  .nav-bar-item-3 {
+    order: 4;
+  }
+
+  .nav-bar-item-4 {
+    order: 3;
   }
 
   #target {

@@ -1,0 +1,16 @@
+@media (max-width: 767px) {
+  .project-charter-title {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  .goals-content .charter-content-item {
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+  }
+
+  #project-charter-1 i,
+  #project-charter-3 i {
+    display: none;
+  }
+}
